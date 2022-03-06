@@ -1,0 +1,7 @@
+Button{
+	-fx-background: transparent;
+    -fx-text-fill: rgb(209, 99, 93);
+    -fx-border-color: rgb(209, 99, 93);
+    -fx-border-radius: 5;
+    -fx-padding: 3 6 6 6;
+}

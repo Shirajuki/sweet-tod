@@ -1,0 +1,10 @@
+@font-face {
+  	font-family: Monego;
+	src: url('https://dl.dropboxusercontent.com/s/5c1hsw2w2ji2v28/Monego-Regular.otf');
+}
+.root {
+    -fx-background-color: #000;
+}
+.monospace {
+    -fx-font: 15px "Monego";
+}
