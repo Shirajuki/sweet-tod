@@ -217,14 +217,20 @@ public class Game {
 		for (int i = 0; i < 25; i++) {
 			factory.newRandomFood();
 		}
-		for (int i = 0; i < 16; i++) {
-			factory.newBat(10, 6, 2);
+		for (int i = 0; i < 4; i++) {
+			factory.newRandomRings();
+		}
+		for (int i = 0; i < 12; i++) {
+			factory.newRandomMisc();
+		}
+		for (int i = 0; i < 12; i++) {
+			factory.newRandomPotions();
 		}
 		for (int i = 0; i < 100; i++) {
 			factory.newFungus(10, 0, 1);
 		}
-		for (int i = 0; i < 10; i++) {
-			factory.newSlime(10, 6, 1);
+		for (int i = 0; i < 55; i++) {
+			factory.newRandomWeakMob();
 		}
 		for (int i = 0; i < 7; i++) {
 			factory.newZombie(25, 14, 4);

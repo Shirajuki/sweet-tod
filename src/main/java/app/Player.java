@@ -284,10 +284,13 @@ public class Player extends Entity {
 
 	public void quaff(Item item) {
 		infoArr.add("You drank " + item.name() + ".");
-		this.inventory.remove(item);
+		this.stats.put("hp", this.stats.get("hp") + item.healingValue());
+		if (this.stats.get("hp") > this.stats.get("hpMax"))
+			this.stats.put("hp", this.stats.get("hpMax"));
 		if (item.hasBuff()) {
 			addBuffs(item.buffs());
 		}
+		this.inventory.remove(item);
 	}
 
 	public void unequip(Item item) {

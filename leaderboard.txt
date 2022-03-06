@@ -1,1 +1,2 @@
 DATE,NAME,REASON,FLOOR,LVL,CANDIES
+06/03/22,Alpha,Killed by Zombie,0,1,10
