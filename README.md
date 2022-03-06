@@ -8,6 +8,13 @@ Dette repoet er et spill for TDT4100 prosjektet våren 2020.
 - `mvn javafx:run` - run javafx application
 - `mvn clean compile assembly:single` - build jar
 
+NB: Test is running an old version of junit (and also poorly implemented), thus not working :c
+
+## Preview
+![main menu](./images/preview1.png)
+![gameplay](./images/preview2.png)
+![help menu](./images/preview3.png)
+
 ## Reminder av nøkkelpunkter
 
 | Nøkkelpunkt                              | Beskrivelse                             |
